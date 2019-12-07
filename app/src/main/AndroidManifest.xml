@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nawres.jeux_enf">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Jeux pour Enfant"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".levels_numbers"></activity>
+        <activity android:name=".animal_level" />
+        <activity android:name=".number9" />
+        <activity android:name=".number8" />
+        <activity android:name=".number7" />
+        <activity android:name=".number6" />
+        <activity android:name=".number5" />
+        <activity android:name=".number4" />
+        <activity android:name=".number3" />
+        <activity android:name=".number2" />
+        <activity android:name=".number1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".animals9" />
+        <activity android:name=".animals8" />
+        <activity android:name=".animals7" />
+        <activity android:name=".animals6" />
+        <activity android:name=".animals5" />
+        <activity android:name=".animal4" />
+        <activity android:name=".animals3" />
+        <activity android:name=".animals2" />
+        <activity android:name=".animals" />
+        <activity android:name=".index1" />
+        <activity android:name=".shapes.LevelsShapes" />
+        <activity android:name=".colors.LevelsColors" />
+        <activity android:name=".colors.Level1Colors" />
+        <activity android:name=".colors.Level2Colors" />
+        <activity android:name=".colors.Level3Colors" />
+        <activity android:name=".cheatSheet" />
+        <activity android:name=".colors.Level4Colors" />
+        <activity android:name=".colors.Level5Colors" />
+        <activity android:name=".colors.Level6Colors" />
+        <activity android:name=".colors.Level7Colors" />
+        <activity android:name=".colors.Level8Colors" />
+        <activity android:name=".colors.Level9Colors" />
+        <activity android:name=".colors.cheatSheet1" />
+        <activity android:name=".shapes.Level1Shapes" />
+        <activity android:name=".shapes.Level3Shapes" />
+        <activity android:name=".shapes.Level2Shapes" />
+        <activity android:name=".shapes.Level5Shapes" />
+        <activity android:name=".shapes.Level4Shapes" />
+        <activity android:name=".shapes.Level6Shapes" />
+        <activity android:name=".shapes.Level7Shapes" />
+        <activity android:name=".shapes.Level8Shapes" />
+        <activity android:name=".shapes.Level9Shapes" />
+    </application>
+
+</manifest>

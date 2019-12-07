@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "434882750013",
+    "firebase_url": "https://jeuxenf-2ad3a.firebaseio.com",
+    "project_id": "jeuxenf-2ad3a",
+    "storage_bucket": "jeuxenf-2ad3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434882750013:android:c69384bd0de6323c5d2c54",
+        "android_client_info": {
+          "package_name": "com.nawres.jeux_enf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434882750013-p02pj07vdf04i88usv4o2c5dj64g0rsg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nawres.jeux_enf",
+            "certificate_hash": "b632fc5aa2e2e363060165371d67ca6d3102f3e3"
+          }
+        },
+        {
+          "client_id": "434882750013-bq1b0r5m27r8giqmeoht3pcnfomt827r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDakPotplRngrJb38klLyBIr_MjAcOQH3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434882750013-bq1b0r5m27r8giqmeoht3pcnfomt827r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

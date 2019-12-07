@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:orderInCategory="100"
+                android:title="Home"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/level_number"
+                android:icon="@drawable/ic_apps_black_24dp"
+                android:orderInCategory="100"
+                android:title="Levels"
+                app:showAsAction="never" />
+        </menu>
+
+    </item>
+
+
+</menu>

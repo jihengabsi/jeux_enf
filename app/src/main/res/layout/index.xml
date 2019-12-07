@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/index"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:onClick="logout"
+            app:srcCompat="@mipmap/exit" />
+
+
+        <TextView
+            android:id="@+id/enfant_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="250sp"
+            android:text="Hi "
+            android:textColor="#FFFF"
+            android:textSize="40dp"
+            android:textStyle="bold|italic"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="491dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-300dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="50sp"
+
+                android:layout_marginTop="370dp"
+                android:background="@mipmap/cow"
+                android:onClick="animal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="320dp"
+                android:text="Animals"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="50sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="370dp"
+                android:background="@mipmap/steps"
+                android:onClick="numbers" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="320dp"
+                android:text="Numbers"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="50sp"
+                android:layout_marginTop="60dp"
+                android:background="@mipmap/color"
+                android:onClick="colors" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="5dp"
+                android:text="Colors"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="70sp"
+                android:layout_marginTop="60dp"
+                android:background="@mipmap/puzzle"
+                android:onClick="puzzle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="5dp"
+                android:text="Shapes"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
